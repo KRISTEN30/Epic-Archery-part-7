@@ -69,9 +69,9 @@ function draw() {
         score += 5;
       }*/
 
-      /*if (board1Collision.collided || board2Collision.collided) {
+      if (board1Collision.collided || board2Collision.collided) {
         score += 5;
-      }*/
+      }
 
       /*if (board1Collision.collided || board2Collision.collided) {
         score = 5;
@@ -113,13 +113,13 @@ function draw() {
     gameOver();
   }*/
 
-  /*if (numberOfArrows == 0) {
-    gameOver();
-  }*/
-
-  if (numberOfArrows = 0) {
+  if (numberOfArrows == 0) {
     gameOver();
   }
+
+  /*if (numberOfArrows = 0) {
+    gameOver();
+  }*/
 
   /*if (numberOfArrows == 0) {
     gameOver;
